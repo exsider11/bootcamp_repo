@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+
+    </head>
+    <body>
+
+        
+    </body>
+</html>
+--------------------------------------
+is the basic structure of html webpage
+-**everything in html needs a tag (if you want a title you need a title tag etc.)**
+-content in the <head> shows up at the page name(top left) and the content in the <body> shows inside the web page
+some tags : <p>paragraph</p>, <b>bold</b>, <span>genertic tag span</span>, <div>another generic tag div</div>
+for image tags you do not need to close the tag with </image> but you can just put /> at the end
