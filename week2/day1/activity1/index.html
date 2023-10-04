@@ -1,0 +1,40 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset=""UTF-8 />
+        <meta name="viewport" content="width=device-width, intial-scale=1" />
+        <title>Hello media queries!</title>
+        <style>
+            .square {
+                width: 20%;
+                height: 200px;
+                background-color: red;
+            }
+            @media screen and (max-width:1000px) {
+                .square {
+                    background: green;
+                    width: 35%;
+                }
+            }
+            @media screen and (max-width:500px) {
+                .square {
+                    background: blue;
+                    width: 50%;
+                }
+            }
+            @media screen and (max-width:380px) {
+                .square {
+                    background: yellow;
+                    width: 100%;
+                }
+            }
+            @media print {
+                .square {
+                    display:none
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="square"></div>
+    </body>
+</html>
