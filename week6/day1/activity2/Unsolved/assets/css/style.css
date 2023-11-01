@@ -1,0 +1,41 @@
+:root {
+  --brown: #a88f82;
+  --tan: #f5e1d5;
+  --teal: #71a8a7;
+  --lightteal: #d5f5f5;
+  --light: #fffaf7;
+}
+
+/* Add your custom class style definitions here */
+
+.custom-navbar {
+  background-color: var(--teal);
+}
+
+.custom-navbar a {
+  font-size: 1.5rem;
+  color: var(--lightteal);
+}
+
+.custom-navbar a:hover {
+  color: var(--lightteal);
+}
+
+.hero {
+  background-color: var(--lightteal);
+  color: var(--teal);
+}
+
+.custom-btn {
+  background-color: var(--brown);
+  color: var(--light);
+}
+
+.custom-btn:hover {
+  background-color: var(--brown);
+  color: var(--teal);
+}
+
+
+/* HINT: Apply CSS variables using `var(--brown)` syntax as your property value */
+
